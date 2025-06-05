@@ -69,7 +69,7 @@ function expenseAdd(newExpense) {
 
         // Cria o valor da despesa
         const expanseAmount = document.createElement('span');
-        expanseAmount.classList.add('remove-icon');
+        expanseAmount.classList.add('expense-amount');
         expanseAmount.innerHTML = `<small>R$</small>${newExpense.amount.toUpperCase().replace("R$", "")}` 
 
 
